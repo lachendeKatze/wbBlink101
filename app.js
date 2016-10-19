@@ -72,7 +72,7 @@ var toggleLight = function( circleID )
 function bleConnect(buttonID) {
   var thisButton = document.getElementById(buttonID);
   thisButton.setAttribute("fill-opacity",0.9);
-  exp3.connect()
+  led.connect()
       .then(() => console.log('connected'))
       .catch(error => { console.log('connect error!'); });
 

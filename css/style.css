@@ -1,0 +1,28 @@
+html {
+  background: url(/wbBlink101/images/charcoalbkg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: 45px;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    border-radius: 100%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

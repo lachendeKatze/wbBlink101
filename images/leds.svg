@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="800" height="850">
+  <style>
+    circle
+    {
+      stroke-width:3;
+      stroke: #000000;
+    }
+  </style>
+    <script href='/wbBlink101/exp3.js'></script>
+    <script href='/wbBlink101/app.js'></script>
+
+
+    <circle id="circle1" cx="225" cy="150" r="50" fill="#ff0000" fill-opacity="0.2" onclick="lightIt(this.id)"/>
+    <circle id="circle2" cx="350" cy="150" r="50" fill="#00ff00" fill-opacity="0.2" onclick="lightIt(this.id);"/>
+    <circle id="circle3" cx="475" cy="150" r="50" fill="#00ffff" fill-opacity="0.2" onclick="lightIt(this.id);"/>
+    <circle id="circle4" cx="600" cy="150" r="50" fill="#ffff00" fill-opacity="0.2" onclick="lightIt(this.id);"/>
+
+    <circle id ="blecircle" cx="105" cy="550" r="100" fill="#3c84cc" fill-opacity="0.5" onclick="bleConnect(this.id)"/>
+    <text x="55" y="570" font-family="Comic Sans MS" font-size="55" fill="#2a3050" fill-opacity="0.9"> BLE </text>
+
+</svg>

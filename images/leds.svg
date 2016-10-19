@@ -6,7 +6,7 @@
       stroke: #000000;
     }
   </style>
-    <script href='/wbBlink101/exp3.js'></script>
+    <script href='/wbBlink101/led.js'></script>
     <script href='/wbBlink101/app.js'></script>
 
 

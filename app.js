@@ -40,25 +40,25 @@ function getBrightness()
 var toggleLight = function( circleID )
 {
   if (circleID == "circle1" ) {
-   exp3._writeCharacteristic(exp3.ledUUID, new Uint8Array([4]))
+   led._writeCharacteristic(led.ledUUID, new Uint8Array([4]))
    .then(() => console.log('wrote 4'))
    .catch(error => {console.log('write error');
    });
   }
   else if (circleID == "circle2" ){
-    exp3._writeCharacteristic(exp3.ledUUID, new Uint8Array([3]))
+    led._writeCharacteristic(led.ledUUID, new Uint8Array([3]))
    .then(() => console.log('wrote 3'))
    .catch(error => {console.log('write error');
    });
   }
   else if (circleID == "circle3") {
-    exp3._writeCharacteristic(exp3.ledUUID, new Uint8Array([2]))
+    led._writeCharacteristic(led.ledUUID, new Uint8Array([2]))
    .then(() => console.log('wrote 2'))
    .catch(error => {console.log('write error');
    })
   }
   else{
-    exp3._writeCharacteristic(exp3.ledUUID, new Uint8Array([1]))
+    led._writeCharacteristic(led.ledUUID, new Uint8Array([1]))
    .then(() => console.log('wrote 1'))
    .catch(error => {console.log('write error');
    });

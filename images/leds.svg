@@ -15,7 +15,7 @@
     <circle id="circle3" cx="475" cy="150" r="50" fill="#00ffff" fill-opacity="0.2" onclick="lightIt(this.id);"/>
     <circle id="circle4" cx="600" cy="150" r="50" fill="#ffff00" fill-opacity="0.2" onclick="lightIt(this.id);"/>
 
-    <circle id ="blecircle" cx="105" cy="500" r="100" fill="#3c84cc" fill-opacity="0.5" onclick="bleConnect(this.id)"/>
-    <text x="55" y="520" font-family="Comic Sans MS" font-size="55" fill="#2a3050" fill-opacity="0.9"> BLE </text>
+    <circle id ="blecircle" cx="105" cy="450" r="100" fill="#3c84cc" fill-opacity="0.5" onclick="bleConnect(this.id)"/>
+    <text x="55" y="470" font-family="Comic Sans MS" font-size="55" fill="#2a3050" fill-opacity="0.9"> BLE </text>
 
 </svg>
